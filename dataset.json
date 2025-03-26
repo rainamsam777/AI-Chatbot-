@@ -1,0 +1,425 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there", "Hello", "Hey", "Good day", "Is anyone there?",
+                "Hi", "Good morning", "Good afternoon", "Good evening",
+                "Hello, how are you?", "Hey there!", "Hi, can you help me?",
+                "What's up?", "Howdy!", "Good to see you!", "Hi, what's up?",
+                "Hi!", "Hello!", "Hey!"
+            ],
+            "responses": [
+                "Hello! Welcome to KFA Business School. How can I assist you today?",
+                "Hi there! Ask me anything about KFA Business School.",
+                "Hey! I am here to help. What do you need to know about KFA?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "See you later", "Goodbye", "Thanks, bye!",
+                "Bye bye", "Take care", "See you", "Have a good day",
+                "Goodbye, have a nice day!", "Catch you later", "Farewell",
+                "See ya!", "Bye for now.", "Bye!", "Goodbye!"
+            ],
+            "responses": [
+                "Goodbye! Feel free to ask me anytime about KFA Business School.",
+                "See you! Have a great day.",
+                "Take care! Let me know if you need more help later."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "That's helpful", "Awesome, thanks",
+                "Thank you so much", "Thanks a lot", "I appreciate it",
+                "Thanks for your help", "You're awesome!", "Cheers!",
+                "Many thanks!", "Thanks a bunch!", "Thank you!", "Thanks!"
+            ],
+            "responses": [
+                "You're welcome! Let me know if you need more information.",
+                "Happy to help!",
+                "Glad I could assist you. Feel free to ask more!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "about_kfa",
+            "patterns": [
+                "What is KFA Business School?", "Tell me about KFA Business School",
+                "Where is KFA Business School located?", "Can you tell me about KFA?",
+                "What does KFA stand for?", "What is KFA known for?",
+                "Tell me more about KFA Business School.", "What’s KFA?",
+                "Tell me about KFA college", "What’s KFA Business School about?",
+                "KFA?", "About KFA?", "Details?"
+            ],
+            "responses": [
+                "KFA Business School, established in 2009, is a leading institution in Nepal that offers business, IT, and hospitality programs. It blends theoretical learning with practical applications to prepare students for industry careers. It is located in Mid-Baneshwor, Kathmandu."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "contact_kfa",
+            "patterns": [
+                "How can I contact KFA Business School?",
+                "What is the contact number of KFA Business School?",
+                "Can I get the email address of KFA?",
+                "Where can I find KFA's contact details?",
+                "How do I reach KFA Business School?", "KFA phone number?",
+                "KFA email?", "How to reach KFA?", "Contact?", "Phone?", "Email?"
+            ],
+            "responses": [
+                "You can contact KFA Business School at +977-1-4591414 or email them at kfaltd@gmail.com."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is KFA Business School located?",
+                "What is the address of KFA?",
+                "Can you tell me the location of KFA?",
+                "Where is KFA situated?",
+                "How do I get to KFA Business School?", "KFA address?",
+                "Where’s KFA?", "Location?", "Address?", "Where?"
+            ],
+            "responses": [
+                "KFA Business School is located in Mid-Baneshwor, Kathmandu."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "program_duration",
+            "patterns": [
+                "How long is the MBA program?",
+                "What is the duration of the BBA program?",
+                "How many years is the BCS.IT program?",
+                "What is the length of the BHM program?",
+                "Can you tell me the duration of the programs at KFA?",
+                "How long does each program take to complete?",
+                "What are the durations of the courses at KFA?",
+                "Duration of MBA?", "How long is BBA?", "Duration?", "Length?", "Years?"
+            ],
+            "responses": [
+                "The duration of programs at KFA Business School varies:\n\n", 
+                "1. **MBA (Master of Business Administration)**: 2 years\n",
+                "2. **BBA (Bachelor of Business Administration)**: 4 years\n",
+                "3. **BCS.IT (Bachelor of Computer Science in IT)**: 4 years\n",
+                "4. **BHM (Bachelor in Hospitality Management)**: 4 years"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "student_support",
+            "patterns": [
+                "Does KFA offer counseling services?",
+                "Is there academic support for students?",
+                "What kind of student support does KFA provide?",
+                "Are there mental health services at KFA?",
+                "Can I get tutoring at KFA?", "Support?", "Counseling?", "Tutoring?"
+            ],
+            "responses": [
+                "KFA provides comprehensive student support services, including academic counseling, mental health support, tutoring, and career guidance to help students succeed."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "accreditations_affiliations",
+            "patterns": [
+                "Is KFA accredited?",
+                "What affiliations does KFA have?",
+                "Does KFA have any international partnerships?",
+                "What is the affiliation of KFA Business School?",
+                "Can you tell me about KFA's accreditations?", "Accreditation?", "Affiliations?"
+            ],
+            "responses": [
+                "KFA Business School is affiliated with Lincoln College Malaysia. Additionally, students will receive an equivalence certificate from Tribhuvan University."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "mba_program",
+            "patterns": [
+                "Tell me about the MBA program", "What is MBA+ at KFA?",
+                "What are the features of MBA at KFA?", "Can you explain the MBA program?",
+                "What does the MBA program offer?", "Is there an MBA program at KFA?",
+                "What are the benefits of the MBA program?", "MBA?", "MBA program?"
+            ],
+            "responses": [
+                "The MBA+ program at KFA is designed with 12 pillars that focus on managerial and entrepreneurial skills. It offers multiple formats: Morning MBA, Day MBA, and Evening MBA, with features like a dual faculty system, career mapping, and industry-based research."
+            ],
+            "context": ["mba_details"]
+        },
+        {
+            "tag": "mba_admission",
+            "patterns": [
+                "How can I apply to the MBA program?", "What is the admission process for MBA?",
+                "What are the requirements for MBA admission?", "Can you explain the MBA admission process?",
+                "How do I get admitted to the MBA program?", "What documents are needed for MBA admission?",
+                "MBA admission?", "How to apply for MBA?", "MBA requirements?"
+            ],
+            "responses": [
+                "To apply for the MBA program, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. Would you like to know about the fee structure?"
+            ],
+            "context": ["mba_details"]
+        },
+        {
+            "tag": "mba_fees",
+            "patterns": [
+                "What is the fee for the MBA program?", "How much does the MBA program cost?",
+                "Are there any additional fees for MBA?", "What is the fee structure for MBA?",
+                "Can I pay in installments for MBA?", "MBA fees?", "Tuition for MBA?"
+            ],
+            "responses": [
+                "The fee for the MBA program is $X per semester. You can pay in installments. Would you like to know about scholarships?"
+            ],
+            "context": ["mba_details"]
+        },
+        {
+            "tag": "bba_program",
+            "patterns": [
+                "What is the BBA program at KFA?", "Tell me about the BBA at KFA",
+                "What are the features of BBA at KFA?", "Can you explain the BBA program?",
+                "What does the BBA program offer?", "Is there a BBA program at KFA?",
+                "What are the benefits of the BBA program?", "BBA?", "BBA program?"
+            ],
+            "responses": [
+                "The BBA program at KFA Business School follows a 7-pillar approach focusing on practical exposure, guaranteed job placements for students with CGPA 3.5+, industry tours, and guest lectures."
+            ],
+            "context": ["bba_details"]
+        },
+        {
+            "tag": "bcsit_program",
+            "patterns": [
+                "What is the BCS.IT program at KFA?", "Tell me about the Cybersecurity program at KFA",
+                "Can you explain the BCS.IT program?", "What does the BCS.IT program offer?",
+                "Is there a Cybersecurity program at KFA?", "What are the benefits of the BCS.IT program?",
+                "BCS.IT?", "Cybersecurity?"
+            ],
+            "responses": [
+                "The BCS.IT program specializes in Network Technology & Cybersecurity with 9 key pillars, including a 6-month traineeship, certified IT courses, and an IT talk show with professionals."
+            ],
+            "context": ["bcsit_details"]
+        },
+        {
+            "tag": "bhm_program",
+            "patterns": [
+                "Tell me about the BHM program", "What is Hospitality Management at KFA?",
+                "Can you explain the BHM program?", "What does the BHM program offer?",
+                "Is there a Hospitality Management program at KFA?", "What are the benefits of the BHM program?",
+                "BHM?", "Hospitality?"
+            ],
+            "responses": [
+                "The BHM program at KFA Business School offers practical learning with domestic & international internships, hospitality industry research, and hotel observation trips."
+            ],
+            "context": ["bhm_details"]
+        },
+        {
+            "tag": "admission_process",
+            "patterns": [
+                "How can I apply to KFA Business School?", "What is the admission process at KFA?",
+                "What are the requirements for admission?", "Can you explain the admission process?",
+                "How do I get admitted to KFA?", "What documents are needed for admission?",
+                "Admission?", "How to apply?", "Requirements?"
+            ],
+            "responses": [
+                "To apply to KFA Business School, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. For details, visit the admissions office or check the official website."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "Does KFA Business School offer scholarships?", "What scholarships are available at KFA?",
+                "How can I get a scholarship at KFA?", "Are there any scholarships for international students?",
+                "What are the eligibility criteria for scholarships?", "Can you tell me about financial aid at KFA?",
+                "Scholarships?", "Financial aid?"
+            ],
+            "responses": [
+                "KFA Business School offers merit-based and need-based scholarships. Eligibility criteria vary, including academic excellence and financial need. Visit the scholarship section on the website or contact the admissions office for details."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "faculty_details",
+            "patterns": [
+                "Who are the faculty members at KFA?", "What is the faculty experience at KFA Business School?",
+                "Can you tell me about the professors at KFA?", "What qualifications do the faculty members have?",
+                "Are the faculty members experienced?", "Who teaches at KFA Business School?",
+                "Faculty?", "Professors?"
+            ],
+            "responses": [
+                "KFA Business School has a dual faculty system, bringing together experienced academicians and industry professionals to provide practical and theoretical knowledge."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "campus_facilities",
+            "patterns": [
+                "What facilities are available at KFA Business School?", "Does KFA have a library, labs, or student lounge?",
+                "What are the campus facilities like?", "Can you describe the campus infrastructure?",
+                "Are there any sports facilities at KFA?", "What resources are available for students?",
+                "Facilities?", "Campus?"
+            ],
+            "responses": [
+                "KFA Business School provides modern infrastructure, including a library, IT labs, seminar halls, and a student lounge to support an engaging learning environment."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "hostel_accommodation",
+            "patterns": [
+                "Does KFA provide hostel facilities?", "Are there hostels for students at KFA?",
+                "Can I stay on campus?", "What are the accommodation options at KFA?",
+                "Is there on-campus housing?", "Where do students live?", "Hostel?", "Accommodation?"
+            ],
+            "responses": [
+                "KFA Business School assists students in finding accommodation near the campus but does not have an on-campus hostel facility."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "internship_opportunities",
+            "patterns": [
+                "Are internships available at KFA?", "Does KFA help with internships?",
+                "What kind of internships can I get?", "Are there internship opportunities for IT students?",
+                "Can KFA help me find an internship?", "What companies partner with KFA for internships?",
+                "Internships?", "Placements?"
+            ],
+            "responses": [
+                "KFA Business School has a dedicated Career Cell that helps students secure internships and gain industry exposure in business, IT, and hospitality sectors."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "events_activities",
+            "patterns": [
+                "What events are held at KFA?", "Are there any student activities at KFA?",
+                "Can you tell me about campus events?", "What extracurricular activities are available?",
+                "Are there any clubs or societies at KFA?", "What do students do outside of class?",
+                "Events?", "Activities?"
+            ],
+            "responses": [
+                "KFA Business School organizes various events and activities, including seminars, workshops, cultural programs, and sports events. Students can also join clubs and societies to enhance their skills and network."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "alumni_network",
+            "patterns": [
+                "What is the alumni network like at KFA?", "Can you tell me about KFA alumni?",
+                "Where do KFA graduates work?", "What are the achievements of KFA alumni?",
+                "How strong is the alumni network?", "Can I connect with KFA alumni?", "Alumni?", "Graduates?"
+            ],
+            "responses": [
+                "KFA Business School has a strong alumni network with graduates working in top companies and organizations worldwide. The alumni network provides mentorship, career guidance, and networking opportunities for current students."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "career_services",
+            "patterns": [
+                "Does KFA offer career services?", "Can KFA help me find a job?",
+                "What career support is available?", "Are there job placement services at KFA?",
+                "How does KFA prepare students for careers?", "Can I get career counseling at KFA?",
+                "Career?", "Placements?"
+            ],
+            "responses": [
+                "KFA Business School offers comprehensive career services, including job placement assistance, career counseling, resume building, and interview preparation. The Career Cell also organizes job fairs and recruitment drives."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "fees_payment",
+            "patterns": [
+                "What are the tuition fees for the MBA program?",
+                "How much does the BBA program cost?",
+                "Are there any additional fees?",
+                "What is the fee structure for BCS.IT?",
+                "Can I pay in installments?", "Fees?", "Tuition?"
+            ],
+            "responses": [
+                "The tuition fees vary depending on the program. For detailed fee structures, please visit the official website or contact the admissions office."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "class_schedule",
+            "patterns": [
+                "What is the class schedule for the MBA program?",
+                "When do BBA classes usually take place?",
+                "Are there evening classes for BCS.IT?",
+                "Can I get a timetable for BHM?", "Schedule?", "Timetable?"
+            ],
+            "responses": [
+                "Class schedules vary by program. You can find detailed timetables on the official website or by contacting the academic office."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "library_access",
+            "patterns": [
+                "Can I access the library as a prospective student?",
+                "What resources are available in the library?",
+                "Is the library open to the public?",
+                "How do I get a library card?", "Library?", "Books?"
+            ],
+            "responses": [
+                "The library at KFA Business School is primarily for enrolled students, but prospective students may access it during open house events. For more details, contact the library staff."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "what are the courses",
+                "what programs do you offer",
+                "list of degrees",
+                "available programs",
+                "study options",
+                "what can I study",
+                "courses offered",
+                "degrees available",
+                "what are my options",
+                "academic programs",
+                "tell me about your courses",
+                "what do you offer",
+                "educational programs",
+                "learning programs"
+            ],
+            "responses": [
+                "KFA offers: 1) MBA (2 yrs) 2) BBA (4 yrs) 3) BSc.IT (4 yrs) 4) BHM (4 yrs)",
+                "Our programs include: MBA, BBA, BSc.IT, and BHM degrees",
+                "We offer Master of Business Administration, Bachelor of Business Administration, Bachelor of Computer Science, and Bachelor in Hospitality Management"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I didn't understand that. Could you rephrase your question?",
+                "I'm still learning! Could you ask me something else about KFA Business School?",
+                "Hmm, I’m not sure I understand. Can you provide more details?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How are you?", "What's up?", "Tell me a joke", "What can you do?",
+                "What’s your name?", "Who made you?", "Tell me something interesting.",
+                "Hi!", "Hello!", "Hey!"
+            ],
+            "responses": [
+                "I'm just a chatbot, but I'm here to help you with all things KFA!",
+                "I can tell you about programs, admissions, and more. What do you need?",
+                "I’m your KFA assistant! Ask me anything about KFA Business School."
+            ],
+            "context": [""]
+        }
+    ]
+}
