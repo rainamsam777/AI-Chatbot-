@@ -7,9 +7,14 @@
                 "Hi", "Good morning", "Good afternoon", "Good evening",
                 "Hello, how are you?", "Hey there!", "Hi, can you help me?",
                 "What's up?", "Howdy!", "Good to see you!", "Hi, what's up?",
-                "Hi!", "Hello!", "Hey!"
+                "Hi!", "Hello!", "Hey!",
+                "Hello KFABot", "Hey KFABot", "Hi KFABot",
+                "Good day KFABot", "Are you there KFABot?"
             ],
             "responses": [
+                "Hello! I'm KFABot, your virtual assistant for KFA Business School. How can I help you today?",
+                "Hi there! I'm KFABot, here to answer all your questions about KFA Business School.",
+                "Hey! KFABot at your service. What would you like to know about KFA?",
                 "Hello! Welcome to KFA Business School. How can I assist you today?",
                 "Hi there! Ask me anything about KFA Business School.",
                 "Hey! I am here to help. What do you need to know about KFA?"
@@ -25,6 +30,9 @@
                 "See ya!", "Bye for now.", "Bye!", "Goodbye!"
             ],
             "responses": [
+                "Goodbye! Feel free to ask KFABot anytime about KFA Business School.",
+                "See you! KFABot is always here if you have more questions.",
+                "Take care! Let me know if you need more help later.",
                 "Goodbye! Feel free to ask me anytime about KFA Business School.",
                 "See you! Have a great day.",
                 "Take care! Let me know if you need more help later."
@@ -42,7 +50,10 @@
             "responses": [
                 "You're welcome! Let me know if you need more information.",
                 "Happy to help!",
-                "Glad I could assist you. Feel free to ask more!"
+                "Glad I could assist you. Feel free to ask more!",
+                "You're welcome! KFABot is happy to help. Let me know if you need more information.",
+                "Happy to help! That's what KFABot is here for.",
+                "Glad KFABot could assist you. Feel free to ask more!"
             ],
             "context": [""]
         },
@@ -52,12 +63,14 @@
                 "What is KFA Business School?", "Tell me about KFA Business School",
                 "Where is KFA Business School located?", "Can you tell me about KFA?",
                 "What does KFA stand for?", "What is KFA known for?",
-                "Tell me more about KFA Business School.", "What’s KFA?",
-                "Tell me about KFA college", "What’s KFA Business School about?",
+                "Tell me more about KFA Business School.", "What's KFA?",
+                "Tell me about KFA college", "What's KFA Business School about?",
                 "KFA?", "About KFA?", "Details?"
             ],
             "responses": [
-                "KFA Business School, established in 2009, is a leading institution in Nepal that offers business, IT, and hospitality programs. It blends theoretical learning with practical applications to prepare students for industry careers. It is located in Mid-Baneshwor, Kathmandu."
+                "KFA Business School, established in 2009, is a leading institution in Nepal that offers business, IT, and hospitality programs. It blends theoretical learning with practical applications to prepare students for industry careers. It is located in Mid-Baneshwor, Kathmandu.",
+                "KFA Business School is known for its industry-aligned programs. KFABot can tell you more about our MBA, BBA, BCS.IT and BHM programs - just ask!",
+                "At KFA, we bridge academia and industry! KFABot can share details about our practical approach to education in Kathmandu."
             ],
             "context": [""]
         },
@@ -72,7 +85,9 @@
                 "KFA email?", "How to reach KFA?", "Contact?", "Phone?", "Email?"
             ],
             "responses": [
-                "You can contact KFA Business School at +977-1-4591414 or email them at kfaltd@gmail.com."
+                "You can contact KFA Business School at +977-1-4591414 or email them at kfaltd@gmail.com.",
+                "KFABot has the contact info: Phone +977-1-4591414 or email kfaltd@gmail.com",
+                "Reach KFA at: Phone +977-1-4591414 | Email kfaltd@gmail.com | Location: Mid-Baneshwor, Kathmandu"
             ],
             "context": [""]
         },
@@ -84,10 +99,12 @@
                 "Can you tell me the location of KFA?",
                 "Where is KFA situated?",
                 "How do I get to KFA Business School?", "KFA address?",
-                "Where’s KFA?", "Location?", "Address?", "Where?"
+                "Where's KFA?", "Location?", "Address?", "Where?"
             ],
             "responses": [
-                "KFA Business School is located in Mid-Baneshwor, Kathmandu."
+                "KFA Business School is located in Mid-Baneshwor, Kathmandu.",
+                "KFABot can direct you to our campus in Mid-Baneshwor, Kathmandu.",
+                "You'll find KFA at Mid-Baneshwor in Kathmandu. Need directions?"
             ],
             "context": [""]
         },
@@ -104,11 +121,9 @@
                 "Duration of MBA?", "How long is BBA?", "Duration?", "Length?", "Years?"
             ],
             "responses": [
-                "The duration of programs at KFA Business School varies:\n\n", 
-                "1. **MBA (Master of Business Administration)**: 2 years\n",
-                "2. **BBA (Bachelor of Business Administration)**: 4 years\n",
-                "3. **BCS.IT (Bachelor of Computer Science in IT)**: 4 years\n",
-                "4. **BHM (Bachelor in Hospitality Management)**: 4 years"
+                "The duration of programs at KFA Business School varies:\n\n1. **MBA (Master of Business Administration)**: 2 years\n2. **BBA (Bachelor of Business Administration)**: 4 years\n3. **BCS.IT (Bachelor of Computer Science in IT)**: 4 years\n4. **BHM (Bachelor in Hospitality Management)**: 4 years",
+                "KFABot can share program durations:\n- MBA: 2 years\n- BBA: 4 years\n- BCS.IT: 4 years\n- BHM: 4 years",
+                "Here's how long our programs take:\n• MBA: 2 yrs\n• BBA: 4 yrs\n• BCS.IT: 4 yrs\n• BHM: 4 yrs"
             ],
             "context": [""]
         },
@@ -122,7 +137,9 @@
                 "Can I get tutoring at KFA?", "Support?", "Counseling?", "Tutoring?"
             ],
             "responses": [
-                "KFA provides comprehensive student support services, including academic counseling, mental health support, tutoring, and career guidance to help students succeed."
+                "KFA provides comprehensive student support services, including academic counseling, mental health support, tutoring, and career guidance to help students succeed.",
+                "KFABot can confirm we offer academic counseling, mental health services, tutoring, and career support.",
+                "Yes! KFA offers:\n- Academic counseling\n- Mental health services\n- Tutoring\n- Career guidance"
             ],
             "context": [""]
         },
@@ -136,7 +153,9 @@
                 "Can you tell me about KFA's accreditations?", "Accreditation?", "Affiliations?"
             ],
             "responses": [
-                "KFA Business School is affiliated with Lincoln College Malaysia. Additionally, students will receive an equivalence certificate from Tribhuvan University."
+                "KFA Business School is affiliated with Lincoln College Malaysia. Additionally, students will receive an equivalence certificate from Tribhuvan University.",
+                "KFABot can share that KFA is affiliated with Lincoln College Malaysia and has Tribhuvan University equivalence.",
+                "Our accreditations include:\n- Lincoln College Malaysia affiliation\n- Tribhuvan University equivalence"
             ],
             "context": [""]
         },
@@ -149,7 +168,9 @@
                 "What are the benefits of the MBA program?", "MBA?", "MBA program?"
             ],
             "responses": [
-                "The MBA+ program at KFA is designed with 12 pillars that focus on managerial and entrepreneurial skills. It offers multiple formats: Morning MBA, Day MBA, and Evening MBA, with features like a dual faculty system, career mapping, and industry-based research."
+                "The MBA+ program at KFA is designed with 12 pillars that focus on managerial and entrepreneurial skills. It offers multiple formats: Morning MBA, Day MBA, and Evening MBA, with features like a dual faculty system, career mapping, and industry-based research.",
+                "KFABot can share that our MBA+ program includes:\n- Flexible schedules\n- Dual faculty system\n- Industry projects\n- Career support",
+                "Our MBA features:\n• 12-pillar curriculum\n• Morning/Day/Evening options\n• Industry-aligned training"
             ],
             "context": ["mba_details"]
         },
@@ -162,7 +183,9 @@
                 "MBA admission?", "How to apply for MBA?", "MBA requirements?"
             ],
             "responses": [
-                "To apply for the MBA program, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. Would you like to know about the fee structure?"
+                "To apply for the MBA program, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. Would you like to know about the fee structure?",
+                "KFABot explains MBA admission requires:\n1. Application form\n2. Academic transcripts\n3. Entrance exam\n4. Interview",
+                "For MBA admission:\n• Submit application\n• Provide transcripts\n• Take entrance test\n• Attend interview"
             ],
             "context": ["mba_details"]
         },
@@ -174,7 +197,9 @@
                 "Can I pay in installments for MBA?", "MBA fees?", "Tuition for MBA?"
             ],
             "responses": [
-                "The fee for the MBA program is $X per semester. You can pay in installments. Would you like to know about scholarships?"
+                "The fee for the MBA program is $X per semester. You can pay in installments. Would you like to know about scholarships?",
+                "KFABot can share that MBA fees are $X/semester with installment options available.",
+                "MBA program costs:\n• $X per semester\n• Installment plans\n• Scholarship options"
             ],
             "context": ["mba_details"]
         },
@@ -187,7 +212,9 @@
                 "What are the benefits of the BBA program?", "BBA?", "BBA program?"
             ],
             "responses": [
-                "The BBA program at KFA Business School follows a 7-pillar approach focusing on practical exposure, guaranteed job placements for students with CGPA 3.5+, industry tours, and guest lectures."
+                "The BBA program at KFA Business School follows a 7-pillar approach focusing on practical exposure, guaranteed job placements for students with CGPA 3.5+, industry tours, and guest lectures.",
+                "KFABot can explain our BBA program features:\n- 7-pillar approach\n- Guaranteed placements (CGPA 3.5+)\n- Industry exposure",
+                "Our BBA offers:\n• Practical learning\n• Job placement guarantee\n• Industry tours\n• Guest lectures"
             ],
             "context": ["bba_details"]
         },
@@ -200,7 +227,9 @@
                 "BCS.IT?", "Cybersecurity?"
             ],
             "responses": [
-                "The BCS.IT program specializes in Network Technology & Cybersecurity with 9 key pillars, including a 6-month traineeship, certified IT courses, and an IT talk show with professionals."
+                "The BCS.IT program specializes in Network Technology & Cybersecurity with 9 key pillars, including a 6-month traineeship, certified IT courses, and an IT talk show with professionals.",
+                "KFABot can share that our BCS.IT program includes:\n- Cybersecurity focus\n- 6-month traineeship\n- Certified IT courses\n- Professional talks",
+                "BCS.IT highlights:\n• Network Technology focus\n• Cybersecurity training\n• Industry certification prep\n• Professional networking"
             ],
             "context": ["bcsit_details"]
         },
@@ -213,7 +242,9 @@
                 "BHM?", "Hospitality?"
             ],
             "responses": [
-                "The BHM program at KFA Business School offers practical learning with domestic & international internships, hospitality industry research, and hotel observation trips."
+                "The BHM program at KFA Business School offers practical learning with domestic & international internships, hospitality industry research, and hotel observation trips.",
+                "KFABot can explain our BHM program features:\n- Hands-on learning\n- Global internships\n- Industry research\n- Hotel observations",
+                "BHM program includes:\n• Practical training\n• International internships\n• Hospitality research\n• Hotel visits"
             ],
             "context": ["bhm_details"]
         },
@@ -226,7 +257,9 @@
                 "Admission?", "How to apply?", "Requirements?"
             ],
             "responses": [
-                "To apply to KFA Business School, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. For details, visit the admissions office or check the official website."
+                "To apply to KFA Business School, you need to fill out an application form, submit academic transcripts, and appear for an entrance assessment and interview. For details, visit the admissions office or check the official website.",
+                "KFABot explains the admission process:\n1. Application form\n2. Transcripts submission\n3. Entrance test\n4. Interview",
+                "General admission requires:\n• Completed application\n• Academic records\n• Entrance exam\n• Interview"
             ],
             "context": [""]
         },
@@ -239,7 +272,9 @@
                 "Scholarships?", "Financial aid?"
             ],
             "responses": [
-                "KFA Business School offers merit-based and need-based scholarships. Eligibility criteria vary, including academic excellence and financial need. Visit the scholarship section on the website or contact the admissions office for details."
+                "KFA Business School offers merit-based and need-based scholarships. Eligibility criteria vary, including academic excellence and financial need. Visit the scholarship section on the website or contact the admissions office for details.",
+                "KFABot can share scholarship options:\n- Merit-based (academic excellence)\n- Need-based (financial assistance)\n- Special categories",
+                "We offer:\n• Academic scholarships\n• Financial aid\n• Special category awards\nCheck our website for details!"
             ],
             "context": [""]
         },
@@ -252,7 +287,9 @@
                 "Faculty?", "Professors?"
             ],
             "responses": [
-                "KFA Business School has a dual faculty system, bringing together experienced academicians and industry professionals to provide practical and theoretical knowledge."
+                "KFA Business School has a dual faculty system, bringing together experienced academicians and industry professionals to provide practical and theoretical knowledge.",
+                "KFABot can tell you about our excellent faculty! We combine academic experts with industry practitioners.",
+                "Our faculty includes:\n• PhD-holding academics\n• Industry professionals\n• Visiting experts"
             ],
             "context": [""]
         },
@@ -265,7 +302,9 @@
                 "Facilities?", "Campus?"
             ],
             "responses": [
-                "KFA Business School provides modern infrastructure, including a library, IT labs, seminar halls, and a student lounge to support an engaging learning environment."
+                "KFA Business School provides modern infrastructure, including a library, IT labs, seminar halls, and a student lounge to support an engaging learning environment.",
+                "KFABot can show you our facilities:\n- Well-stocked library\n- Advanced IT labs\n- Seminar spaces\n- Student lounge",
+                "Campus features:\n• Library resources\n• Computer labs\n• Seminar rooms\n• Lounge areas"
             ],
             "context": [""]
         },
@@ -277,7 +316,9 @@
                 "Is there on-campus housing?", "Where do students live?", "Hostel?", "Accommodation?"
             ],
             "responses": [
-                "KFA Business School assists students in finding accommodation near the campus but does not have an on-campus hostel facility."
+                "KFA Business School assists students in finding accommodation near the campus but does not have an on-campus hostel facility.",
+                "KFABot can help with accommodation info: We assist with finding nearby housing (no on-campus hostels).",
+                "Housing options:\n• Assistance finding nearby rentals\n• No on-campus hostels\n• Safe neighborhood recommendations"
             ],
             "context": [""]
         },
@@ -290,7 +331,9 @@
                 "Internships?", "Placements?"
             ],
             "responses": [
-                "KFA Business School has a dedicated Career Cell that helps students secure internships and gain industry exposure in business, IT, and hospitality sectors."
+                "KFA Business School has a dedicated Career Cell that helps students secure internships and gain industry exposure in business, IT, and hospitality sectors.",
+                "KFABot can share internship support:\n- Dedicated Career Cell\n- Business/IT/Hospitality placements\n- Industry partnerships",
+                "We provide:\n• Internship placement assistance\n• Multiple industry sectors\n• Career Cell support"
             ],
             "context": [""]
         },
@@ -303,7 +346,9 @@
                 "Events?", "Activities?"
             ],
             "responses": [
-                "KFA Business School organizes various events and activities, including seminars, workshops, cultural programs, and sports events. Students can also join clubs and societies to enhance their skills and network."
+                "KFA Business School organizes various events and activities, including seminars, workshops, cultural programs, and sports events. Students can also join clubs and societies to enhance their skills and network.",
+                "KFABot can tell you about campus life:\n- Regular seminars/workshops\n- Cultural events\n- Sports activities\n- Student clubs",
+                "Student life includes:\n• Professional workshops\n• Cultural festivals\n• Sports competitions\n• Interest clubs"
             ],
             "context": [""]
         },
@@ -315,7 +360,9 @@
                 "How strong is the alumni network?", "Can I connect with KFA alumni?", "Alumni?", "Graduates?"
             ],
             "responses": [
-                "KFA Business School has a strong alumni network with graduates working in top companies and organizations worldwide. The alumni network provides mentorship, career guidance, and networking opportunities for current students."
+                "KFA Business School has a strong alumni network with graduates working in top companies and organizations worldwide. The alumni network provides mentorship, career guidance, and networking opportunities for current students.",
+                "KFABot can connect you with our global alumni network spanning industries worldwide, offering mentorship and career support.",
+                "Our alumni:\n• Work in top global companies\n• Provide mentorship\n• Offer networking opportunities\n• Support current students"
             ],
             "context": [""]
         },
@@ -328,7 +375,9 @@
                 "Career?", "Placements?"
             ],
             "responses": [
-                "KFA Business School offers comprehensive career services, including job placement assistance, career counseling, resume building, and interview preparation. The Career Cell also organizes job fairs and recruitment drives."
+                "KFA Business School offers comprehensive career services, including job placement assistance, career counseling, resume building, and interview preparation. The Career Cell also organizes job fairs and recruitment drives.",
+                "KFABot can detail our career support:\n- Job placement help\n- Resume workshops\n- Interview prep\n- Recruitment events",
+                "Career preparation includes:\n• Placement assistance\n• Resume building\n• Mock interviews\n• Job fairs"
             ],
             "context": [""]
         },
@@ -342,7 +391,9 @@
                 "Can I pay in installments?", "Fees?", "Tuition?"
             ],
             "responses": [
-                "The tuition fees vary depending on the program. For detailed fee structures, please visit the official website or contact the admissions office."
+                "The tuition fees vary depending on the program. For detailed fee structures, please visit the official website or contact the admissions office.",
+                "KFABot can direct you to fee information:\n- Program-specific costs\n- Payment options\n- Scholarship info",
+                "Fee details:\n• Vary by program\n• Installment plans available\n• See website for specifics"
             ],
             "context": [""]
         },
@@ -355,7 +406,9 @@
                 "Can I get a timetable for BHM?", "Schedule?", "Timetable?"
             ],
             "responses": [
-                "Class schedules vary by program. You can find detailed timetables on the official website or by contacting the academic office."
+                "Class schedules vary by program. You can find detailed timetables on the official website or by contacting the academic office.",
+                "KFABot can guide you to schedule information:\n- Program-specific timings\n- Evening options for some courses\n- Academic office contacts",
+                "Scheduling info:\n• Varies by program\n• Some evening options\n• Check website/office"
             ],
             "context": [""]
         },
@@ -368,7 +421,9 @@
                 "How do I get a library card?", "Library?", "Books?"
             ],
             "responses": [
-                "The library at KFA Business School is primarily for enrolled students, but prospective students may access it during open house events. For more details, contact the library staff."
+                "The library at KFA Business School is primarily for enrolled students, but prospective students may access it during open house events. For more details, contact the library staff.",
+                "KFABot explains library access:\n- Mainly for enrolled students\n- Prospective students during open houses\n- Contact staff for details",
+                "Library policy:\n• Current students have full access\n• Visitors during special events\n• Staff can provide guidance"
             ],
             "context": [""]
         },
@@ -393,7 +448,9 @@
             "responses": [
                 "KFA offers: 1) MBA (2 yrs) 2) BBA (4 yrs) 3) BSc.IT (4 yrs) 4) BHM (4 yrs)",
                 "Our programs include: MBA, BBA, BSc.IT, and BHM degrees",
-                "We offer Master of Business Administration, Bachelor of Business Administration, Bachelor of Computer Science, and Bachelor in Hospitality Management"
+                "We offer Master of Business Administration, Bachelor of Business Administration, Bachelor of Computer Science, and Bachelor in Hospitality Management",
+                "KFABot can list our programs:\n- MBA (2 years)\n- BBA (4 years)\n- BSc.IT (4 years)\n- BHM (4 years)",
+                "Study options at KFA:\n• MBA\n• BBA\n• BSc.IT\n• BHM"
             ],
             "context": [""]
         },
@@ -403,7 +460,9 @@
             "responses": [
                 "I'm sorry, I didn't understand that. Could you rephrase your question?",
                 "I'm still learning! Could you ask me something else about KFA Business School?",
-                "Hmm, I’m not sure I understand. Can you provide more details?"
+                "Hmm, I'm not sure I understand. Can you provide more details?",
+                "KFABot didn't catch that. Could you try asking differently?",
+                "I'm still learning! Try asking KFABot about programs, admissions, or campus life."
             ],
             "context": [""]
         },
@@ -411,13 +470,16 @@
             "tag": "small_talk",
             "patterns": [
                 "How are you?", "What's up?", "Tell me a joke", "What can you do?",
-                "What’s your name?", "Who made you?", "Tell me something interesting.",
+                "What's your name?", "Who made you?", "Tell me something interesting.",
                 "Hi!", "Hello!", "Hey!"
             ],
             "responses": [
-                "I'm just a chatbot, but I'm here to help you with all things KFA!",
+                "I'm KFABot, your virtual assistant for KFA Business School! I can tell you about programs, admissions, and campus life.",
+                "As KFABot, my job is to help you with all things KFA! What would you like to know?",
+                "I'm just KFABot, but I'm excited to help you explore KFA Business School!",
+                "I'm a chatbot, but I'm here to help you with all things KFA!",
                 "I can tell you about programs, admissions, and more. What do you need?",
-                "I’m your KFA assistant! Ask me anything about KFA Business School."
+                "I'm your KFA assistant! Ask me anything about KFA Business School."
             ],
             "context": [""]
         }
